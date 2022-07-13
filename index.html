@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+</head>
+<body>
+    <script>
+        //diagonal of square
+      let sq=9; 
+      const square= Math.sqrt(2) * sq;
+      console.log("square diagonal:"+square);
+      //triangle area
+      var s=9;//semi perimeter
+      var fs= 5;//first side
+      var ss=6;//second side
+      var ts=7;//third side
+      const area= Math.sqrt((s-fs)*(s-ss)*(s-ts));
+      console.log("Triangle Area:"+area);
+      //circle perimeter 
+      var r=4
+      const perimeter= 2*Math.PI* r;
+      console.log("circle perimeter:"+perimeter);
+     //circle area 
+     const circleArea= Math.PI*r*r;
+     console.log("circle area:"+circleArea);
+     //loops and condition
+     for(var i=1;i<=2;i++){
+        if(i>1) {
+            console.log(i);
+        }
+     }
+     for(var n=1;n<=10;n++){
+        if(n%2 ==0){
+            console.log(n+":even");
+        }else{
+            console.log(n+":odd");
+        }
+     }
+     
+    </script>
+</body>
